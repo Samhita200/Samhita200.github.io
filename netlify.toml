@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build" # or `yarn build` depending on your package manager
+  publish = "build" # Directory where the `index.html` is located after build
+
+[[redirects]]
+  from = "/*"
+  to = "/app.js"
+  status = 200
